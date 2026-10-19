@@ -106,7 +106,7 @@ void delete(int T[], char key[]) {
     T[hash(key, SIZE)] = -1;
 }
 
-void main() {
+//void main() {
     // test stack :
     /*int N = 5;
     int S[5];
@@ -129,7 +129,7 @@ void main() {
     printf("Dequeue : %d\n", dequeue(&Q));
     printf("Avant : %d\n", queue_peek(Q));*/
 
-    int T[SIZE];
+    /*int T[SIZE];
     for (int i = 0; i < SIZE; i++) {
         T[i] = -1;
     }
@@ -141,6 +141,6 @@ void main() {
     printf("%d\n", lookup(T, "xyz"));
 
     delete(T, "abc");
-    printf("%d\n", lookup(T, "abc"));
+    printf("%d\n", lookup(T, "abc"));*/
 
-}
+//}
